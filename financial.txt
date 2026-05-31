@@ -1,0 +1,13 @@
+Ottimo contesto. Ora costruiamo il tuo universo ETF. L'idea è perfetta per il progetto: un universo **multi-asset diversificato e "ingenuo"** — quello che un investitore razionale avrebbe costruito senza sapere nulla del conflitto Iran/USA del febbraio 2026.Ottimo contesto. Ecco l'universo ETF che ti consiglio, costruito come farebbe un investitore razionale a fine 2023/inizio 2024 — senza sapere nulla del conflitto Iran/USA del febbraio 2026.Ecco il tuo universo. Ecco la logica dietro le scelte principali.
+
+**Perché questo universo è ideale per il tuo progetto**
+
+L'universo copre 7 asset class distinte e ha storia suficiente su Yahoo Finance (tutti partono almeno dal 2007-2010). La diversificazione è "ingenua" nel senso giusto: un investitore razionale di fine 2023 avrebbe costruito esattamente questo, senza sapere nulla del conflitto. Poi puoi mostrare come le strategie si sono comportate quando il choc è arrivato a febbraio 2026.
+
+**Cosa succederà out-of-sample con il conflitto**
+
+Quando cade il febbraio 2026, ti aspetti di vedere: GLD, TIP, BIL e TLT che salgono (flight to safety); XLE e DBC che esplodono per il blocco dello Stretto di Hormuz; SPY, QQQ, EEM che cadono; VGK e EWJ penalizzati dall'energia. La domanda del progetto sarà: Markowitz o Michaud avevano già ribilanciato in anticipo verso asset meno rischiosi? E quale ha perso meno?
+
+**Piccoli accorgimenti pratici**
+
+Per scaricare via `yfinance`, il ticker si usa così com'è (es. `yf.download("SPY TLT GLD", start="2008-01-01")`). Se vuoi ETF più liquidi e con history più lunga puoi sostituire DBMF (lanciato 2019) con CTA di Simplify o direttamente escluderlo restando a 24 ETF. BIL è fondamentale: ti serve come tasso risk-free `rf` nel calcolo dello Sharpe ratio.
